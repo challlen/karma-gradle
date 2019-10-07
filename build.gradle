@@ -13,11 +13,11 @@ repositories {
     mavenCentral()
 }
 
-group = 'com.craigburke.gradle'
+group = 'com.craigburke.karma'
 version = '1.5.0'
 
 ext {
-    artifactId = 'karma'
+    artifactId = 'com.craigburke.karma.gradle.plugin'
 }
 
 dependencies {
