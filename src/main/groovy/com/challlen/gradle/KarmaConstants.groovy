@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.craigburke.gradle
+package com.challlen.gradle
 
 class KarmaConstants {
 

@@ -13,11 +13,11 @@ repositories {
     mavenCentral()
 }
 
-group = 'com.craigburke.karma'
+group = 'com.challlen.karma'
 version = '1.5.0'
 
 ext {
-    artifactId = 'com.craigburke.karma.gradle.plugin'
+    artifactId = 'com.challlen.karma.gradle.plugin'
 }
 
 dependencies {
@@ -45,7 +45,7 @@ pluginBundle {
 
     plugins {
         jasmine {
-            id = 'com.craigburke.karma'
+            id = 'com.challlen.karma'
             displayName = 'Karma Test Runner Plugin'
         }
     }

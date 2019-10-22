@@ -1,4 +1,4 @@
-package com.craigburke.gradle
+package com.challlen.gradle
 
 import groovy.json.JsonSlurper
 import spock.lang.Shared

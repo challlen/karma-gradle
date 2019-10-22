@@ -1,4 +1,4 @@
-package com.craigburke.gradle
+package com.challlen.gradle
 
 import spock.lang.Unroll
 import static KarmaConstants.*

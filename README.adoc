@@ -3,13 +3,15 @@
 = Karma Gradle Plugin
 
 This Gradle plugin allows you to run Jasmine, Qunit, or Mocha tests using the Karma test runner.
+Originally created by Craig Burke
+Updated by Baylor Triplett
 
 == Getting Started
 
 [source,gradle,subs='attributes']
 ----
 plugins {
-    id 'com.craigburke.karma' version '{version}'
+    id 'com.challlen.karma' version '{version}'
 }
 ----
 
@@ -40,7 +42,7 @@ You can use the same properties you'd set in your http://karma-runner.github.io/
 [source,gradle,subs='attributes']
 ----
 plugins {
-    id 'com.craigburke.karma' version '{version}'
+    id 'com.challlen.karma' version '{version}'
 }
 
 karma {
@@ -69,7 +71,7 @@ Profiles allow you to use commonly used file patterns and sensible defaults for 
 [source,gradle,subs='attributes']
 ----
 plugins {
-    id 'com.craigburke.karma' version '{version}'
+    id 'com.challlen.karma' version '{version}'
 }
 
 karma {
@@ -164,7 +166,7 @@ static final String DEFAULT_NODE_VERSION = '10.15.3'
 To build the plugin, at this plugin's folder, type
 gradle clean build publish --info
 
-Verify the published build in ~/.m2/repository/com/craigburke/karma/com.craigburke.karma.gradle.plugin/1.5.0
+Verify the published build in ~/.m2/repository/com/challlen/karma/com.challlen.karma.gradle.plugin/1.5.0
 
 To test the plugin with another project using mavenLocal,
 update that project's settings.gradle by adding the following at the top of the file.

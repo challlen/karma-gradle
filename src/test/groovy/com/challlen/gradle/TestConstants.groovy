@@ -1,4 +1,4 @@
-package com.craigburke.gradle
+package com.challlen.gradle
 
 class TestConstants {
     static final REPORTER_LIST = ['growl', 'junit', 'coverage', 'teamcity']
