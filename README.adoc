@@ -146,12 +146,14 @@ karma {
 To update the plugin, please note the following:
 
 In build.gradle I updated
+----
 version = '1.5.0'
 compile 'org.codehaus.groovy:groovy-all:2.4.15'
 compile 'com.moowork.gradle:gradle-node-plugin:1.3.1'
 website = 'https://github.com/challlen/karma-gradle'
 vcsUrl = 'https://github.com/challlen/karma-gradle'
 gradleVersion = '4.10.2'
+----
 
 In gradle-wrapper.properties
 distributionUrl=https\://services.gradle.org/distributions/gradle-4.10.2-bin.zip
@@ -166,11 +168,11 @@ Verify the published build in ~/.m2/repository/com/craigburke/karma/com.craigbur
 
 To test the plugin with another project using mavenLocal,
 update that project's settings.gradle by adding the following at the top of the file.
-
+----
 pluginManagement {
   repositories {
       mavenLocal()
       gradlePluginPortal()
   }
 }
----
+----
