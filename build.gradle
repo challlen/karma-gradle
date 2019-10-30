@@ -1,7 +1,7 @@
 plugins {
     id 'groovy'
     id 'maven-publish'
-    id 'com.gradle.plugin-publish' version '0.9.1'
+    id 'com.gradle.plugin-publish' version '0.10.1'
     id 'nebula.provided-base' version '3.0.3'
 }
 
@@ -13,11 +13,11 @@ repositories {
     mavenCentral()
 }
 
-group = 'com.challlen.karma'
-version = '1.5.0'
+group = 'com.challlen.gradle'
+version = '1.5.2'
 
 ext {
-    artifactId = 'com.challlen.karma.gradle.plugin'
+    artifactId = 'karma'
 }
 
 dependencies {
@@ -31,8 +31,10 @@ dependencies {
 publishing {
     publications {
         maven(MavenPublication) {
-            artifactId project.artifactId
             from components.java
+			groupId group
+            artifactId project.artifactId
+			version version
         }
     }
 }
