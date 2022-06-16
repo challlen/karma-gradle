@@ -25,8 +25,7 @@ import org.gradle.api.Project
 class KarmaPlugin implements Plugin<Project> {
 
     static final String NPM_OUTPUT_PATH = 'node_modules'
-    static final String DEFAULT_NODE_VERSION = '10.15.3'
-
+    static final String DEFAULT_NODE_VERSION = '14.16.1'
     static final String INIT_TASK = 'karmaInit'
     static final String REFRESH_TASK = 'karmaRefresh'
     static final String CLEAN_TASK = 'karmaClean'
